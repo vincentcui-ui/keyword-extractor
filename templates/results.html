@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Matches:</h1>
+    {% for match in matches %}
+        <p>Found a match: {{ match[0] }} -> {{ match[1] }}</p>
+    {% endfor %}
+</body>
+</html>
